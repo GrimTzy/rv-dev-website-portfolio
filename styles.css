@@ -1073,3 +1073,17 @@ footer {
   filter: var(--photo-filter);
   transition: filter 0.4s ease;
 }
+
+/* Hide Spline watermark */
+/* Hide Spline watermark */
+.hero-right::after {
+  content: '';
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  width: 151px;
+  height: 67px;
+  background: var(--bg);
+  border-radius: 0;
+  z-index: 10;
+}

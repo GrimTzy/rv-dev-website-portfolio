@@ -1,375 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>RV.DEV — Website Portfolio</title>
-<script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.87/build/spline-viewer.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rhalf Valencia — BSIT Student & Full-Stack Developer in Training. Portfolio showcasing web development, mobile apps, and enterprise systems." />
+  <title>RV.DEV — Website Portfolio</title>
+
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.87/build/spline-viewer.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- BOOT -->
-<div id="boot">
-  <div class="boot-inner">
-    <div class="boot-logo">RV<span>.DEV</span></div>
-    <div class="boot-lines" id="bootLines"></div>
-    <div class="boot-bar-track"><div class="boot-bar-fill" id="bootBar"></div></div>
-    <div class="boot-pct" id="bootPct">0%</div>
-  </div>
-</div>
-<!-- NAV -->
-<nav id="nav">
-  <div class="nav-logo">RV<em>.DEV</em></div>
-  <div class="nav-pill">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-  </div>
-  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-  <span class="theme-icon-sun">☀</span>
-  <span class="theme-icon-moon">☾</span>
-</button>
-</nav>
-<!-- CORNER BRACKETS -->
-<div class="corner-frame">
-  <span class="corner tl"></span>
-  <span class="corner tr"></span>
-  <span class="corner bl"></span>
-  <span class="corner br"></span>
-</div>
 
-<!-- HERO -->
-<section id="home">
-  <div class="hero-left">
-    <div class="hero-quote-block">
-      <div class="hero-quote-mark">"</div>
-      <p class="hero-quote-text">Failure never stopped my journey. It sharpened my thinking, strengthened my discipline, and pushed me to become a better version of myself.</p>
-      <div class="hero-quote-attr">Zin Hmue Paing</div>
+  <!-- ===== BOOT SCREEN ===== -->
+  <div id="boot">
+    <div class="boot-inner">
+      <div class="boot-logo">RV<span>.DEV</span></div>
+      <div class="boot-lines" id="bootLines"></div>
+      <div class="boot-bar-track">
+        <div class="boot-bar-fill" id="bootBar"></div>
+      </div>
+      <div class="boot-pct" id="bootPct">0%</div>
     </div>
   </div>
-  <div class="hero-right">
-    <spline-viewer url="https://prod.spline.design/QLWSWXMNc1p0PRjW/scene.splinecode"></spline-viewer>
+
+  <!-- ===== NAV ===== -->
+  <nav id="nav">
+    <div class="nav-logo">RV<em>.DEV</em></div>
+    <div class="nav-pill">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon-sun" aria-hidden="true">☀</span>
+      <span class="theme-icon-moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+
+  <!-- ===== CORNER FRAME ===== -->
+  <div class="corner-frame" aria-hidden="true">
+    <span class="corner tl"></span>
+    <span class="corner tr"></span>
+    <span class="corner bl"></span>
+    <span class="corner br"></span>
   </div>
-</section>
-<div class="divider"></div>
-<!-- INTRO -->
-<section id="intro">
-  <div class="intro-left reveal">
-    <div class="intro-greeting">Hi, My name is</div>
-    <h1 class="intro-name">Valencia,<br><span>Rhalf</span></h1>
-    <div class="intro-title">
-      Information Technology Student <span class="sep">|</span> Full-Stack Developer in Training
+
+  <!-- ===== HERO ===== -->
+  <section id="home">
+    <div class="hero-left">
+      <div class="hero-quote-block">
+        <div class="hero-quote-mark" aria-hidden="true">"</div>
+        <p class="hero-quote-text">Failure never stopped my journey. It sharpened my thinking, strengthened my discipline, and pushed me to become a better version of myself.</p>
+        <div class="hero-quote-attr">Zin Hmue Paing</div>
+      </div>
     </div>
-    <p class="intro-passionate">
-      I am passionate about Web Development, Mobile Application Development, and creating innovative digital solutions. Currently pursuing my diploma in Information Technology, I am building strong technical skills while exploring new tools and frameworks. My goal is to become a versatile developer who delivers impactful, user-focused applications.
-    </p>
-    <div class="intro-chips">
-      <span class="chip"><em>✉</em> ValenciaRhalf@gmail.com</span>
-      <span class="chip"><em>☏</em> 09166250633</span>
-      <span class="chip"><em>◎</em> SJDM, Bulacan</span>
+    <div class="hero-right">
+      <spline-viewer url="https://prod.spline.design/QLWSWXMNc1p0PRjW/scene.splinecode"></spline-viewer>
     </div>
-    <div class="intro-cta">
-      <a href="#projects" class="btn-primary">View My Projects</a>
-      <a href="#" class="btn-ghost">View Resume</a>
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== INTRO ===== -->
+  <section id="intro">
+    <div class="intro-left reveal">
+      <div class="intro-greeting">Hi, My name is</div>
+      <h1 class="intro-name">Valencia,<br><span>Rhalf</span></h1>
+      <p class="intro-title">
+        Information Technology Student <span class="sep" aria-hidden="true">|</span> Full-Stack Developer in Training
+      </p>
+      <p class="intro-passionate">
+        I am passionate about Web Development, Mobile Application Development, and creating innovative digital solutions. Currently pursuing my diploma in Information Technology, I am building strong technical skills while exploring new tools and frameworks. My goal is to become a versatile developer who delivers impactful, user-focused applications.
+      </p>
+      <div class="intro-chips">
+        <span class="chip"><em aria-hidden="true">✉</em> ValenciaRhalf@gmail.com</span>
+        <span class="chip"><em aria-hidden="true">☏</em> 09166250633</span>
+        <span class="chip"><em aria-hidden="true">◎</em> SJDM, Bulacan</span>
+      </div>
+      <div class="intro-cta">
+        <a href="#projects" class="btn-primary">View My Projects</a>
+        <a href="#" class="btn-ghost">View Resume</a>
+      </div>
     </div>
-  </div>
-  <div class="intro-photo-wrap reveal">
-    <div class="intro-photo-frame">
-      <img src="profile.jpg" alt="Profile">
-      <div class="photo-label">Valencia, Rhalf SJDM, Bulacan</div>
+    <div class="intro-photo-wrap reveal">
+      <div class="intro-photo-frame">
+        <img src="profile.jpg" alt="Rhalf Valencia">
+        <div class="photo-label">Valencia, Rhalf — SJDM, Bulacan</div>
+      </div>
     </div>
-  </div>
-</section>
-<div class="divider"></div>
-<!-- ABOUT -->
-<section id="about" class="section">
-  <div class="section-head reveal">
-    <span class="section-idx">01 //</span>
-    <h2 class="section-title">About Me</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="about-grid" style="grid-template-columns: 1fr; max-width: 780px;">
-    <div class="about-body reveal">
-      <p>I am a 3rd-year Bachelor of Science in Information Technology student at STI San Jose Del Monte, passionate about building modern and user-centered digital experiences. I am currently focusing on web development, Mobile Application development.</p>
-      <p>I enjoy solving real-world problems through technology — whether by developing systems that improve daily processes or by creating innovative ideas and turning them into functional applications. I am continuously learning, exploring new tools, and enhancing my skills to grow into a professional developer.</p>
-      <div class="journey-timeline">
-        <div class="journey-item">
-          <div class="journey-period">2022 – 2024</div>
-          <div class="journey-title">JoyFul Angels Academy</div>
-          <div class="journey-desc">Studied ICT and foundational computer science concepts. Developed a strong interest in programming and technology, laying the groundwork for a career in software development.</div>
-        </div>
-        <div class="journey-item">
-          <div class="journey-period">2024 – Present</div>
-          <div class="journey-title">BS Information Technology</div>
-          <div class="journey-desc">Pursuing a Bachelor's degree in Information Technology at STI San Jose Del Monte. Actively building projects, learning modern web frameworks, and applying classroom knowledge to real-world systems including a full ERP solution for an actual client.</div>
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="section-head reveal">
+      <span class="section-idx">01 //</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p>I am a 3rd-year Bachelor of Science in Information Technology student at STI San Jose Del Monte, passionate about building modern and user-centered digital experiences. I am currently focusing on web development and Mobile Application development.</p>
+        <p>I enjoy solving real-world problems through technology — whether by developing systems that improve daily processes or by creating innovative ideas and turning them into functional applications. I am continuously learning, exploring new tools, and enhancing my skills to grow into a professional developer.</p>
+        <div class="journey-timeline">
+          <div class="journey-item">
+            <div class="journey-period">2022 – 2024</div>
+            <div class="journey-title">JoyFul Angels Academy</div>
+            <div class="journey-desc">Studied ICT and foundational computer science concepts. Developed a strong interest in programming and technology, laying the groundwork for a career in software development.</div>
+          </div>
+          <div class="journey-item">
+            <div class="journey-period">2024 – Present</div>
+            <div class="journey-title">BS Information Technology</div>
+            <div class="journey-desc">Pursuing a Bachelor's degree in Information Technology at STI San Jose Del Monte. Actively building projects, learning modern web frameworks, and applying classroom knowledge to real-world systems including a full ERP solution for an actual client.</div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<div class="divider"></div>
-<!-- SKILLS -->
-<section id="skills" class="section">
-  <div class="section-head reveal">
-    <span class="section-idx">02 //</span>
-    <h2 class="section-title">Technical Skills</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="skills-grid">
-    <div class="skill-card reveal">
-      <div class="skill-cat">Languages</div>
-      <div class="skill-icons-row">
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="22" height="22">
-          Python
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="22" height="22">
-          Java
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="22" height="22">
-          C#
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="22" height="22">
-          SQL
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" height="22">
-          JS
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="22" height="22">
-          HTML
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="22" height="22">
-          CSS
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="22" height="22">
-          PHP
-        </div>
-      </div>
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <div class="section-head reveal">
+      <span class="section-idx">02 //</span>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="section-line"></div>
     </div>
-    <div class="skill-card reveal">
-      <div class="skill-cat">Frameworks &amp; Libraries</div>
-      <div class="skill-icons-row">
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="22" height="22">
-          React
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="22" height="22">
-          Laravel
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="22" height="22">
-          Tailwind
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="22" height="22">
-          TensorFlow
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="22" height="22">
-          Vite
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" width="22" height="22">
-          Axios
+    <div class="skills-grid">
+
+      <!-- Languages -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Languages</div>
+        <div class="skill-icons-row">
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="22" height="22" alt="Python"> Python</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="22" height="22" alt="Java"> Java</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="22" height="22" alt="C#"> C#</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="22" height="22" alt="SQL"> SQL</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" height="22" alt="JavaScript"> JS</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="22" height="22" alt="HTML5"> HTML</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="22" height="22" alt="CSS3"> CSS</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="22" height="22" alt="PHP"> PHP</div>
         </div>
       </div>
+
+      <!-- Frameworks & Libraries -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Frameworks &amp; Libraries</div>
+        <div class="skill-icons-row">
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="22" height="22" alt="React"> React</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="22" height="22" alt="Laravel"> Laravel</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="22" height="22" alt="Tailwind CSS"> Tailwind</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="22" height="22" alt="TensorFlow"> TensorFlow</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="22" height="22" alt="Vite"> Vite</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" width="22" height="22" alt="Axios"> Axios</div>
+        </div>
+      </div>
+
+      <!-- Backend & Servers -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Backend &amp; Servers</div>
+        <div class="skill-icons-row">
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="22" height="22" alt="Laravel"> Laravel</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="22" height="22" alt="PHP"> PHP</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="22" height="22" alt="Node.js"> Node.js</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="22" height="22" alt="Express"> Express</div>
+        </div>
+      </div>
+
+      <!-- Data & Databases -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Data &amp; Databases</div>
+        <div class="skill-icons-row">
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="22" height="22" alt="MySQL"> MySQL</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="22" height="22" alt="MS SQL Server"> MS SQL</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="22" height="22" alt="MongoDB"> MongoDB</div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Tools</div>
+        <div class="skill-icons-row">
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="22" height="22" alt="Git"> Git</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22" height="22" alt="GitHub"> GitHub</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="22" height="22" alt="VS Code"> VS Code</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="22" height="22" alt="Figma"> Figma</div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="22" height="22" alt="Postman"> Postman</div>
+        </div>
+      </div>
+
+      <!-- Hardware -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Hardware</div>
+        <div class="skill-icons-row">
+          <div class="skill-icon-item">
+            <svg viewBox="0 0 32 32" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="32" height="32" rx="4" fill="#6B7280"/><path d="M19.5 7.5l-2.5 2.5 2 2-3 3-2-2-3 3 2 2L7 23l2 2 6-6 2 2 3-3-2-2 3-3 2 2 2.5-2.5-6-6z" fill="white"/></svg>
+            Repair
+          </div>
+          <div class="skill-icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="22" height="22" alt="Windows"> OS Install</div>
+          <div class="skill-icon-item">
+            <svg viewBox="0 0 32 32" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="32" height="32" rx="4" fill="#10B981"/><path d="M11 11h10v10H11V11zm1.5 1.5v7h7v-7h-7zM9 13h1v1H9v-1zm0 2h1v1H9v-1zm0 2h1v1H9v-1zm0 2h1v1H9v-1zm13-6h1v1h-1v-1zm0 2h1v1h-1v-1zm0 2h1v1h-1v-1zm0 2h1v1h-1v-1zm-9-13h1v1h-1V8zm2 0h1v1h-1V8zm2 0h1v1h-1V8zm2 0h1v1h-1V8zm-6 15h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1z" fill="white"/></svg>
+            Diagnose
+          </div>
+          <div class="skill-icon-item">
+            <svg viewBox="0 0 32 32" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="32" height="32" rx="4" fill="#1F2937"/><path d="M9 9h14v3H9V9zm0 5h14v3H9v-3zm0 5h14v4H9v-4zm2 1.5v1h2v-1h-2zm4 0v1h2v-1h-2z" fill="#F59E0B"/></svg>
+            Assembly
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="skill-card reveal">
-      <div class="skill-cat">Backend &amp; Servers</div>
-      <div class="skill-icons-row">
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="22" height="22">
-          Laravel
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="22" height="22">
-          PHP
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="22" height="22">
-          Node.js
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="22" height="22">
-          Express
-        </div>
-      </div>
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="section-head reveal">
+      <span class="section-idx">03 //</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
     </div>
-    <div class="skill-card reveal">
-      <div class="skill-cat">Data &amp; Databases</div>
-      <div class="skill-icons-row">
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="22" height="22">
-          MySQL
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="22" height="22">
-          MS SQL
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="22" height="22">
-          MongoDB
+    <div class="projects-split">
+
+      <!-- Left: Project Card -->
+      <div class="projects-left reveal">
+        <div class="proj-card capstone">
+          <div class="proj-header">
+            <span class="proj-num">01</span>
+            <span class="proj-status wip">In Progress</span>
+          </div>
+          <h3 class="proj-title">Enterprise ERP System</h3>
+          <p class="proj-desc">Currently building a full-scale ERP system for an actual client. A comprehensive platform integrating HRIS (Human Resource), IMS (Inventory), CRM (Customer Relations), Business Intelligence with AI, Geofencing, and GPS tracking all in one unified system.</p>
+          <div class="tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">PHP</span>
+            <span class="tag">React</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Geofencing</span>
+            <span class="tag">GPS</span>
+            <span class="tag">BI + AI</span>
+          </div>
         </div>
       </div>
+
+      <!-- Right: Photo Carousel -->
+      <div class="projects-right reveal">
+        <span class="section-idx">Client &amp; Community</span>
+        <div class="proj-carousel">
+          <div class="proj-carousel-track" id="carouselTrack">
+            <div class="proj-carousel-slide"><img src="client.jpg" alt="Client meeting"></div>
+            <div class="proj-carousel-slide"><img src="client3.jpg" alt="Community photo"></div>
+            <div class="proj-carousel-slide"><img src="client2.jpg" alt="Team photo"></div>
+          </div>
+          <div class="proj-carousel-controls">
+            <button class="proj-carousel-btn" id="carouselPrev" aria-label="Previous slide">&#8592;</button>
+            <div class="proj-carousel-dots" id="carouselDots" role="tablist" aria-label="Carousel navigation"></div>
+            <button class="proj-carousel-btn" id="carouselNext" aria-label="Next slide">&#8594;</button>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="skill-card reveal">
-      <div class="skill-cat">Tools</div>
-      <div class="skill-icons-row">
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="22" height="22">
-          Git
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22" height="22">
-          GitHub
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="22" height="22">
-          VS Code
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="22" height="22">
-          Figma
-        </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="22" height="22">
-          Postman
-        </div>
-      </div>
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
+    <div class="section-head reveal">
+      <span class="section-idx">04 //</span>
+      <h2 class="section-title">Work Experience</h2>
+      <div class="section-line"></div>
     </div>
-    <div class="skill-card reveal">
-      <div class="skill-cat">Hardware</div>
-      <div class="skill-icons-row">
-        <div class="skill-icon-item">
-          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="4" fill="#6B7280"/><path d="M19.5 7.5l-2.5 2.5 2 2-3 3-2-2-3 3 2 2L7 23l2 2 6-6 2 2 3-3-2-2 3-3 2 2 2.5-2.5-6-6z" fill="white"/></svg>
-          Repair
+    <div class="exp-list">
+
+      <div class="exp-card reveal">
+        <div class="exp-meta">
+          <div class="exp-period">2023 – 2024</div>
+          <div class="exp-type">Non-Voice Outsourcing</div>
         </div>
-        <div class="skill-icon-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="22" height="22">
-          OS Install
-        </div>
-        <div class="skill-icon-item">
-          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="4" fill="#10B981"/><path d="M11 11h10v10H11V11zm1.5 1.5v7h7v-7h-7zM9 13h1v1H9v-1zm0 2h1v1H9v-1zm0 2h1v1H9v-1zm0 2h1v1H9v-1zm13-6h1v1h-1v-1zm0 2h1v1h-1v-1zm0 2h1v1h-1v-1zm0 2h1v1h-1v-1zm-9-13h1v1h-1V8zm2 0h1v1h-1V8zm2 0h1v1h-1V8zm2 0h1v1h-1V8zm-6 15h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1z" fill="white"/></svg>
-          Diagnose
-        </div>
-        <div class="skill-icon-item">
-          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="4" fill="#1F2937"/><path d="M9 9h14v3H9V9zm0 5h14v3H9v-3zm0 5h14v4H9v-4zm2 1.5v1h2v-1h-2zm4 0v1h2v-1h-2z" fill="#F59E0B"/></svg>
-          Assembly
+        <div class="exp-detail">
+          <div class="exp-company">ODIN Solutions</div>
+          <div class="exp-role">Customer Service Representative (Non-Voice)</div>
+          <ul class="exp-bullets">
+            <li>Handled customer inquiries through chat and email</li>
+            <li>Provided clear and professional responses to customers</li>
+            <li>Resolved customer concerns in a timely manner</li>
+          </ul>
         </div>
       </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-meta">
+          <div class="exp-period">2024</div>
+          <div class="exp-type">Work Immersion</div>
+        </div>
+        <div class="exp-detail">
+          <div class="exp-company">Computer Repair Shop</div>
+          <div class="exp-role">Computer Repair Technician</div>
+          <ul class="exp-bullets">
+            <li>Fixed basic computer hardware and software problems</li>
+            <li>Installed operating systems and software applications</li>
+            <li>Cleaned and maintained computer units</li>
+            <li>Assisted customers with computer-related concerns</li>
+          </ul>
+        </div>
+      </div>
+
     </div>
-  </div>
-</section>
-<div class="divider"></div>
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <div class="section-head reveal">
-    <span class="section-idx">03 //</span>
-    <h2 class="section-title">Projects</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="projects-split">
-    <!-- LEFT: Project Card -->
-    <div class="projects-left reveal">
-      <div class="proj-card capstone">
-        <div class="proj-header">
-          <span class="proj-num">01</span>
-          <span class="proj-status wip">In Progress</span>
-        </div>
-        <h3 class="proj-title">Enterprise ERP System</h3>
-        <p class="proj-desc">Currently building a full-scale ERP system for an actual client. A comprehensive platform integrating HRIS (Human Resource), IMS (Inventory), CRM (Customer Relations), Business Intelligence with AI, Geofencing, and GPS tracking all in one unified system.</p>
-        <div class="tags">
-          <span class="tag">Laravel</span><span class="tag">PHP</span><span class="tag">React</span>
-          <span class="tag">TensorFlow</span><span class="tag">MySQL</span>
-          <span class="tag">Geofencing</span><span class="tag">GPS</span><span class="tag">BI + AI</span>
-        </div>
-      </div>
-    </div>
-    <!-- RIGHT: Client Photo Carousel -->
-    <div class="projects-right reveal">
-      <span class="section-idx" style="display:block; margin-bottom: 14px;">Client &amp; Community</span>
-      <div class="proj-carousel">
-        <div class="proj-carousel-track" id="carouselTrack">
-          <div class="proj-carousel-slide"><img src="client.jpg" alt="Client Meeting"></div>
-          <!-- Add more slides here: -->
-          <div class="proj-carousel-slide"><img src="client3.jpg" alt="Photo 2"></div>
-          <div class="proj-carousel-slide"><img src="client2.jpg" alt="Photo 3"></div>
-        </div>
-        <div class="proj-carousel-controls">
-          <button class="proj-carousel-btn" id="carouselPrev" aria-label="Previous">&#8592;</button>
-          <div class="proj-carousel-dots" id="carouselDots"></div>
-          <button class="proj-carousel-btn" id="carouselNext" aria-label="Next">&#8594;</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="divider"></div>
-<!-- EXPERIENCE -->
-<section id="experience" class="section">
-  <div class="section-head reveal">
-    <span class="section-idx">04 //</span>
-    <h2 class="section-title">Work Experience</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="exp-list">
-    <div class="exp-card reveal">
-      <div>
-        <div class="exp-period">2023 – 2024</div>
-        <div class="exp-type">Non-Voice Outsourcing</div>
-      </div>
-      <div>
-        <div class="exp-company">ODIN Solutions</div>
-        <div class="exp-role">Customer Service Representative (Non-Voice)</div>
-        <ul class="exp-bullets">
-          <li>Handled customer inquiries through chat and email</li>
-          <li>Provided clear and professional responses to customers</li>
-          <li>Resolved customer concerns in a timely manner</li>
-        </ul>
-      </div>
-    </div>
-    <div class="exp-card reveal">
-      <div>
-        <div class="exp-period">2024</div>
-        <div class="exp-type">Work Immersion</div>
-      </div>
-      <div>
-        <div class="exp-company">Computer Repair Shop</div>
-        <div class="exp-role">Computer Repair Technician</div>
-        <ul class="exp-bullets">
-          <li>Fixed basic computer hardware and software problems</li>
-          <li>Installed operating systems and software applications</li>
-          <li>Cleaned and maintained computer units</li>
-          <li>Assisted customers with computer-related concerns</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="divider"></div>
-<!-- CONTACT -->
-<section id="contact" class="section">
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
     <div class="contact-center reveal">
-    <span class="section-idx" style="display:block;margin-bottom:12px;">05 // Let's Connect</span>
-    <h2 class="contact-title">Get In Touch</h2>
-    <p class="contact-body">Currently a 3rd year IT student open to freelance projects, and entry-level opportunities in web development and IT.</p>
-    <a href="mailto:ValenciaRhalf@gmail.com" class="btn-primary">ValenciaRhalf@gmail.com</a>
-  </div>
-</section>
-<footer>© 2025 VALENCIA, RHALF BUILT WITH HTML · CSS · JS</footer>
+      <span class="section-idx">05 // Let's Connect</span>
+      <h2 class="contact-title">Get In Touch</h2>
+      <p class="contact-body">Currently a 3rd year IT student open to freelance projects and entry-level opportunities in web development and IT.</p>
+      <a href="mailto:ValenciaRhalf@gmail.com" class="btn-primary">ValenciaRhalf@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 VALENCIA, RHALF — BUILT WITH HTML · CSS · JS</p>
+  </footer>
+
 <script src="script.js" defer></script>
 </body>
 </html>

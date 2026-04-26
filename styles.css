@@ -1087,3 +1087,15 @@ footer {
   border-radius: 0;
   z-index: 10;
 }
+
+/* Devicons dark mode fix */
+.skill-icon-item img {
+  width: 22px;
+  height: 22px;
+}
+:root:not(.light) .skill-icon-item img[src*="github"] {
+  filter: invert(1);
+}
+:root:not(.light) .skill-icon-item img[src*="express"] {
+  filter: invert(1);
+}
